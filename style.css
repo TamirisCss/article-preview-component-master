@@ -76,10 +76,30 @@ body {
     border-radius: 50%;
     background-color: var(--light-grayish-blue);
 }
-
+.share {
+    position: relative;
+}
 .box-share {
     /* display: none; */
     position: absolute;
+    top: -150%;
+    left: -250%;
+    width: 15vw;
+    background-color: var(--very-dark-grayish-blue);
+    display: flex;
+    align-items: center;
+    padding: .80rem 1.2rem;
+    border-radius: .60rem;
+    justify-content: space-around;
+}
+.box-share p {
+    text-transform: uppercase;
+    color: var(--light-grayish-blue);
+    letter-spacing: 3px;
+    font-size: .80rem;
+}
+.fab {
+    color: var(--light-grayish-blue);
 }
 .attribution { 
     font-size: 11px; text-align: center; 
