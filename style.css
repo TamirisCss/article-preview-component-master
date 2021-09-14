@@ -81,7 +81,6 @@ body {
     cursor: pointer;
 }
 .box-share {
-    /* display: none; */
     visibility: hidden;
     position: absolute;
     top: -170%;
@@ -121,4 +120,12 @@ body {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media  (max-width: 1120px){
+    .container {
+        flex-direction: column;
+        height: 80vh;
+    }
+
 }
